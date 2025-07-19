@@ -12,7 +12,7 @@ def call_function(function_call_part, verbose=False):
     if verbose:
         print(f"Calling function: {function_name}({function_args})")
     else:
-        print(f" - Calling function: {function_name}")
+        print(f"- Calling function: {function_name}")
 
     functions_dict = {
         "get_file_content": get_file_content,
